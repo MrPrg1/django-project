@@ -55,7 +55,7 @@ ROOT_URLCONF = 'djangoKham.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [r'C:\Users\po\Documents\django-project\templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

@@ -9,7 +9,7 @@ class SingerModel(models.Model):
     style = models.IntegerField(choices=CHOICES_NAME, default=1)
 
     def __str__(self):
-        return self.name()
+        return self.name
 
 
 class MuzicModel(models.Model):
