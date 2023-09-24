@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>welcom to music web</h1>
+
+    {% for x in music %}
+    <p>
+       name : {{x.name}}
+       <br>
+       singer : {{x.Singer}}
+       <hr>
+    </p>
+  
+ 
+    {% endfor %}
+</body>
+</html>
